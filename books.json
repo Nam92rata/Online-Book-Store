@@ -1,0 +1,23 @@
+[
+    {
+        "isbnNo":"654321",
+        "name":"Node JS - Part 1",
+        "imageUrl":"/node1.jpg",
+        "price":"400",
+        "ebookname":"node1.pdf"    
+    },
+    {
+        "isbnNo":"754321",
+        "name":"Node JS - Part 2",
+        "imageUrl":"/node2.jpg",
+        "price":"650",
+        "ebookname":"node2.pdf" 
+    },
+    {
+        "isbnNo":"854321",
+        "name":"Node JS - Part 3",
+        "imageUrl":"/node3.jpg",
+        "price":"550",
+        "ebookname":"node3.pdf" 
+    }
+]

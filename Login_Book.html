@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title></title>
+        <script type="text/javascript">
+            function OnSubmitForm(value){
+                if(value == 'Login'){
+                    document.myform.action= "http://localhost:3000/login";
+                    document.myform.submit();
+                }
+                else if (value == 'Signup'){
+                    document.myform.action= "http://localhost:3000/signup";
+                    document.myform.submit();
+                }
+            }
+        </script>
+    </head>
+    <body bgcolor ="#E2C2F6">
+        <center>
+            <h1>Online Book Library</h1>
+            <h5>Login to view Book details</h5>
+            <form name="myform" method="POST">
+                <table>
+                    <tr>
+                        <td>UserName:</td>
+                        <td><input type = "text" name="username" value=""/></td>
+                    </tr>
+                    <tr>
+                        <td>Password:</td>
+                        <td><input type = "password" name="password" value=""/></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type = "button" onclick="OnSubmitForm(this.value)" value="Login"/>
+                            <input type = "button" onclick="OnSubmitForm(this.value)" value="Signup"/></td>
+                    </tr>
+                </table>
+            </form>
+        </center>
+    </body>
+</html>
